@@ -1,0 +1,43 @@
+2023-11-21 21:20:43,131 5268 INFO ? odoo: Odoo version 13.0-20230501 
+2023-11-21 21:20:43,131 5268 INFO ? odoo: Using configuration file at C:\Odoo\odoo13\server\odoo.conf 
+2023-11-21 21:20:43,131 5268 INFO ? odoo: addons paths: ['C:\\Odoo\\odoo13\\server\\odoo\\addons', 'c:\\users\\igno\\appdata\\local\\openerp s.a\\odoo\\addons\\13.0', 'c:\\odoo\\odoo13\\server\\odoo\\addons'] 
+2023-11-21 21:20:43,131 5268 INFO ? odoo: database: openpg@localhost:5432 
+2023-11-21 21:20:43,803 5268 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Odoo\odoo13\thirdparty\wkhtmltopdf.exe 
+2023-11-21 21:20:44,209 5268 INFO ? odoo.service.server: Initiating shutdown 
+2023-11-21 21:20:44,209 5268 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-11-21 21:20:45,983 14208 INFO ? odoo: Odoo version 13.0-20230501 
+2023-11-21 21:20:45,983 14208 INFO ? odoo: Using configuration file at C:\Odoo\odoo13\server\odoo.conf 
+2023-11-21 21:20:45,983 14208 INFO ? odoo: addons paths: ['C:\\Odoo\\odoo13\\server\\odoo\\addons', 'c:\\users\\igno\\appdata\\local\\openerp s.a\\odoo\\addons\\13.0', 'c:\\odoo\\odoo13\\server\\odoo\\addons'] 
+2023-11-21 21:20:45,983 14208 INFO ? odoo: database: openpg@localhost:5432 
+2023-11-21 21:20:46,170 14208 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Odoo\odoo13\thirdparty\wkhtmltopdf.exe 
+2023-11-21 21:20:47,174 14208 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-753U4UN:8069 
+2023-11-21 21:21:42,662 14208 INFO ? odoo.service.server: Initiating shutdown 
+2023-11-21 21:21:42,662 14208 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-11-21 21:22:51,908 8 INFO ? odoo: Odoo version 13.0-20230501 
+2023-11-21 21:22:51,908 8 INFO ? odoo: Using configuration file at C:\Odoo\odoo13\server\odoo.conf 
+2023-11-21 21:22:51,908 8 INFO ? odoo: addons paths: ['C:\\Odoo\\odoo13\\server\\odoo\\addons', 'c:\\users\\igno\\appdata\\local\\openerp s.a\\odoo\\addons\\13.0', 'c:\\odoo\\odoo13\\server\\odoo\\addons'] 
+2023-11-21 21:22:51,908 8 INFO ? odoo: database: openpg@localhost:5432 
+2023-11-21 21:22:52,134 8 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Odoo\odoo13\thirdparty\wkhtmltopdf.exe 
+2023-11-21 21:22:53,143 8 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-753U4UN:8069 
+2023-11-21 21:23:07,909 8 INFO ? odoo.http: HTTP Configuring static files 
+2023-11-21 21:23:07,983 8 INFO ? odoo.http: Generating nondb routing 
+2023-11-21 21:23:08,183 8 INFO ? werkzeug: 127.0.0.1 - - [21/Nov/2023 21:23:08] "GET /web/database/selector HTTP/1.1" 200 - 2 0.006 0.256
+2023-11-21 21:23:08,237 8 INFO ? werkzeug: 127.0.0.1 - - [21/Nov/2023 21:23:08] "GET /web/static/lib/fontawesome/css/font-awesome.css HTTP/1.1" 200 - - - -
+2023-11-21 21:23:08,237 8 INFO ? werkzeug: 127.0.0.1 - - [21/Nov/2023 21:23:08] "GET /web/static/lib/bootstrap/css/bootstrap.css HTTP/1.1" 200 - - - -
+2023-11-21 21:23:08,558 8 INFO ? werkzeug: 127.0.0.1 - - [21/Nov/2023 21:23:08] "GET /web/static/lib/jquery/jquery.js HTTP/1.1" 200 - - - -
+2023-11-21 21:23:08,560 8 INFO ? werkzeug: 127.0.0.1 - - [21/Nov/2023 21:23:08] "GET /web/static/lib/popper/popper.js HTTP/1.1" 200 - - - -
+2023-11-21 21:23:08,561 8 INFO ? werkzeug: 127.0.0.1 - - [21/Nov/2023 21:23:08] "GET /web/static/lib/bootstrap/js/index.js HTTP/1.1" 200 - - - -
+2023-11-21 21:23:08,564 8 INFO ? werkzeug: 127.0.0.1 - - [21/Nov/2023 21:23:08] "GET /web/static/lib/bootstrap/js/util.js HTTP/1.1" 200 - - - -
+2023-11-21 21:23:08,568 8 INFO ? werkzeug: 127.0.0.1 - - [21/Nov/2023 21:23:08] "GET /web/static/lib/bootstrap/js/button.js HTTP/1.1" 200 - - - -
+2023-11-21 21:23:08,569 8 INFO ? werkzeug: 127.0.0.1 - - [21/Nov/2023 21:23:08] "GET /web/static/lib/bootstrap/js/alert.js HTTP/1.1" 200 - - - -
+2023-11-21 21:23:08,879 8 INFO ? werkzeug: 127.0.0.1 - - [21/Nov/2023 21:23:08] "GET /web/static/lib/bootstrap/js/carousel.js HTTP/1.1" 200 - - - -
+2023-11-21 21:23:08,891 8 INFO ? werkzeug: 127.0.0.1 - - [21/Nov/2023 21:23:08] "GET /web/static/lib/bootstrap/js/collapse.js HTTP/1.1" 200 - - - -
+2023-11-21 21:23:08,892 8 INFO ? werkzeug: 127.0.0.1 - - [21/Nov/2023 21:23:08] "GET /web/static/lib/bootstrap/js/dropdown.js HTTP/1.1" 200 - - - -
+2023-11-21 21:23:08,899 8 INFO ? werkzeug: 127.0.0.1 - - [21/Nov/2023 21:23:08] "GET /web/static/lib/bootstrap/js/modal.js HTTP/1.1" 200 - - - -
+2023-11-21 21:23:08,902 8 INFO ? werkzeug: 127.0.0.1 - - [21/Nov/2023 21:23:08] "GET /web/static/lib/bootstrap/js/tooltip.js HTTP/1.1" 200 - - - -
+2023-11-21 21:23:08,904 8 INFO ? werkzeug: 127.0.0.1 - - [21/Nov/2023 21:23:08] "GET /web/static/lib/bootstrap/js/popover.js HTTP/1.1" 200 - - - -
+2023-11-21 21:23:09,190 8 INFO ? werkzeug: 127.0.0.1 - - [21/Nov/2023 21:23:09] "GET /web/static/lib/bootstrap/js/scrollspy.js HTTP/1.1" 200 - - - -
+2023-11-21 21:23:09,209 8 INFO ? werkzeug: 127.0.0.1 - - [21/Nov/2023 21:23:09] "GET /web/static/lib/bootstrap/js/tab.js HTTP/1.1" 200 - - - -
+2023-11-21 21:23:09,221 8 INFO ? werkzeug: 127.0.0.1 - - [21/Nov/2023 21:23:09] "GET /web/static/src/img/logo2.png HTTP/1.1" 200 - - - -
+2023-11-21 21:23:09,703 8 INFO ? werkzeug: 127.0.0.1 - - [21/Nov/2023 21:23:09] "GET /web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - - - -
+2023-11-21 21:23:09,956 8 INFO ? werkzeug: 127.0.0.1 - - [21/Nov/2023 21:23:09] "GET /web/static/src/img/favicon.ico HTTP/1.1" 200 - - - -
