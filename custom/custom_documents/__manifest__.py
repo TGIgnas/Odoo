@@ -6,6 +6,7 @@
     'category': 'Uncategorized',
     'data': [
         'views/document_view.xml',
+        'views/actions.xml',
     ],
     'installable': True,
 }

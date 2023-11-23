@@ -1,0 +1,17 @@
+<odoo>
+    <data>
+        <record id="action_custom_document_tree" model="ir.actions.act_window">
+            <field name="name">Documents</field>
+            <field name="res_model">custom_documents.document</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="custom_documents_document_tree"/>
+        </record>
+
+        <record id="action_custom_document_form" model="ir.actions.act_window">
+            <field name="name">Document Form</field>
+            <field name="res_model">custom_documents.document</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="custom_documents_document_form"/>
+        </record>
+    </data>
+</odoo>

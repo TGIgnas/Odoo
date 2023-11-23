@@ -1,5 +1,19 @@
 <odoo>
     <data>
+        <!-- Tree View -->
+        <record model="ir.ui.view" id="custom_documents_document_tree">
+            <field name="name">custom_documents.document.tree</field>
+            <field name="model">custom_documents.document</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="description"/>
+                    <field name="company"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Form View -->
         <record model="ir.ui.view" id="custom_documents_document_form">
             <field name="name">custom_documents.document.form</field>
             <field name="model">custom_documents.document</field>
