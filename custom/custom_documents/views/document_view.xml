@@ -1,0 +1,17 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="custom_documents_document_form">
+            <field name="name">custom_documents.document.form</field>
+            <field name="model">custom_documents.document</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <field name="name"/>
+                        <field name="description"/>
+                        <field name="company"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

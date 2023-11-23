@@ -1,0 +1,456 @@
+2023-11-23 21:33:11,309 9236 INFO ? odoo: Odoo version 13.0-20230501 
+2023-11-23 21:33:11,309 9236 INFO ? odoo: Using configuration file at C:\Odoo\odoo13\server\odoo.conf 
+2023-11-23 21:33:11,309 9236 INFO ? odoo: addons paths: ['C:\\Odoo\\odoo13\\server\\odoo\\addons', 'c:\\users\\igno\\appdata\\local\\openerp s.a\\odoo\\addons\\13.0', 'c:\\odoo\\odoo13\\server\\odoo\\addons'] 
+2023-11-23 21:33:11,309 9236 INFO ? odoo: database: openpg@localhost:5432 
+2023-11-23 21:33:11,950 9236 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Odoo\odoo13\thirdparty\wkhtmltopdf.exe 
+2023-11-23 21:33:12,382 9236 INFO ? odoo.service.server: Initiating shutdown 
+2023-11-23 21:33:12,382 9236 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-11-23 21:33:14,269 9788 INFO ? odoo: Odoo version 13.0-20230501 
+2023-11-23 21:33:14,269 9788 INFO ? odoo: Using configuration file at C:\Odoo\odoo13\server\odoo.conf 
+2023-11-23 21:33:14,269 9788 INFO ? odoo: addons paths: ['C:\\Odoo\\odoo13\\server\\odoo\\addons', 'c:\\users\\igno\\appdata\\local\\openerp s.a\\odoo\\addons\\13.0', 'c:\\odoo\\odoo13\\server\\odoo\\addons'] 
+2023-11-23 21:33:14,269 9788 INFO ? odoo: database: openpg@localhost:5432 
+2023-11-23 21:33:14,504 9788 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Odoo\odoo13\thirdparty\wkhtmltopdf.exe 
+2023-11-23 21:33:15,499 9788 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-753U4UN:8069 
+2023-11-23 21:34:12,742 9788 INFO ? odoo.service.server: Initiating shutdown 
+2023-11-23 21:34:12,742 9788 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-11-23 21:52:52,953 12496 INFO ? odoo: Odoo version 13.0-20230501 
+2023-11-23 21:52:52,953 12496 INFO ? odoo: Using configuration file at C:\Odoo\odoo13\server\odoo.conf 
+2023-11-23 21:52:52,953 12496 INFO ? odoo: addons paths: ['C:\\Odoo\\odoo13\\server\\odoo\\addons', 'c:\\users\\igno\\appdata\\local\\openerp s.a\\odoo\\addons\\13.0', 'c:\\odoo\\odoo13\\server\\odoo\\addons'] 
+2023-11-23 21:52:52,953 12496 INFO ? odoo: database: openpg@localhost:5432 
+2023-11-23 21:52:53,236 12496 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Odoo\odoo13\thirdparty\wkhtmltopdf.exe 
+2023-11-23 21:52:54,364 12496 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-753U4UN:8069 
+2023-11-23 21:55:33,112 12496 INFO ? odoo.http: HTTP Configuring static files 
+2023-11-23 21:55:33,186 12496 INFO Test odoo.modules.loading: loading 1 modules... 
+2023-11-23 21:55:33,200 12496 INFO Test odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2023-11-23 21:55:33,207 12496 INFO Test odoo.modules.loading: loading 7 modules... 
+2023-11-23 21:55:33,327 12496 INFO Test odoo.modules.loading: 7 modules loaded in 0.12s, 0 queries 
+2023-11-23 21:55:33,493 12496 INFO Test odoo.modules.loading: Modules loaded. 
+2023-11-23 21:55:33,496 12496 INFO Test odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-11-23 21:55:33,593 12496 WARNING Test odoo.http: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again. 
+2023-11-23 21:55:33,596 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:55:33] "POST /longpolling/poll HTTP/1.1" 404 - 15 0.016 0.456
+2023-11-23 21:55:44,635 12496 WARNING Test odoo.http: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again. 
+2023-11-23 21:55:44,640 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:55:44] "POST /longpolling/poll HTTP/1.1" 404 - 2 0.003 0.011
+2023-11-23 21:55:58,901 12496 WARNING Test odoo.sql_db: Cursor not closed explicitly
+Please enable sql debugging to trace the caller. 
+2023-11-23 21:55:59,013 12496 INFO Test odoo.sql_db: ConnectionPool(used=0/count=1/max=64): Free leaked connection to 'user=openpg password=xxx dbname=Test host=localhost port=5432 sslmode=prefer' 
+2023-11-23 21:55:59,092 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:55:59] "GET /web/database/selector HTTP/1.1" 200 - 5 0.008 0.197
+2023-11-23 21:56:06,678 12496 INFO Test odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2023-11-23 21:56:06,680 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:56:06] "GET /web?db=Test HTTP/1.1" 200 - 417 0.274 4.940
+2023-11-23 21:56:06,735 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:56:06] "GET /web/content/256-c075fd2/web.assets_common.css HTTP/1.1" 200 - 6 0.004 0.014
+2023-11-23 21:56:07,085 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:56:07] "GET /web/content/257-39cf697/web.assets_backend.css HTTP/1.1" 200 - 4 0.005 0.052
+2023-11-23 21:56:07,123 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:56:07] "GET /web/content/259-39cf697/web.assets_backend.js HTTP/1.1" 200 - 4 0.007 0.083
+2023-11-23 21:56:07,126 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:56:07] "GET /web/content/258-c075fd2/web.assets_common.js HTTP/1.1" 200 - 4 0.007 0.089
+2023-11-23 21:56:07,143 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:56:07] "GET /web/content/256-c075fd2/web.assets_common.css HTTP/1.1" 200 - 4 0.002 0.016
+2023-11-23 21:56:07,413 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:56:07] "GET /web/content/257-39cf697/web.assets_backend.css HTTP/1.1" 200 - 4 0.006 0.016
+2023-11-23 21:56:07,434 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:56:07] "GET /web/content/259-39cf697/web.assets_backend.js HTTP/1.1" 200 - 4 0.006 0.027
+2023-11-23 21:56:07,475 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:56:07] "GET /web/content/258-c075fd2/web.assets_common.js HTTP/1.1" 200 - 4 0.004 0.021
+2023-11-23 21:56:07,723 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:56:07] "GET /web/image/res.company/1/favicon/ HTTP/1.1" 200 - 12 0.011 0.007
+2023-11-23 21:56:07,779 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:56:07] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.003 0.007
+2023-11-23 21:56:07,801 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:56:07] "GET /web/image?model=res.users&field=image_128&id=2 HTTP/1.1" 200 - 18 0.030 0.018
+2023-11-23 21:56:08,075 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:56:08] "POST /web/action/load HTTP/1.1" 200 - 41 0.049 0.053
+2023-11-23 21:56:08,263 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:56:08] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 93 0.066 0.085
+2023-11-23 21:56:08,422 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:56:08] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.005 0.015
+2023-11-23 21:56:21,398 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:56:21] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.006 0.012
+2023-11-23 21:56:24,906 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:56:24] "POST /web/dataset/search_read HTTP/1.1" 200 - 8 0.017 0.024
+2023-11-23 21:56:29,259 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:56:29] "POST /web/action/load HTTP/1.1" 200 - 46 0.040 0.031
+2023-11-23 21:56:29,738 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:56:29] "POST /web/dataset/call_kw/res.users/load_views HTTP/1.1" 200 - 72 0.058 0.096
+2023-11-23 21:56:29,847 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:56:29] "POST /web/dataset/search_read HTTP/1.1" 200 - 16 0.016 0.001
+2023-11-23 21:56:33,489 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:56:33] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.004 0.009
+2023-11-23 21:56:33,829 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:56:33] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.010
+2023-11-23 21:56:36,114 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:56:36] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.005 0.014
+2023-11-23 21:56:37,834 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:56:37] "POST /web/dataset/search_read HTTP/1.1" 200 - 7 0.026 0.026
+2023-11-23 21:56:43,492 12496 INFO Test odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Sales'] to user test@test.com #2 via 127.0.0.1 
+2023-11-23 21:56:43,492 12496 INFO Test odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2023-11-23 21:56:43,492 12496 INFO Test odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Sales'] to user test@test.com #2 via 127.0.0.1 
+2023-11-23 21:56:43,703 12496 INFO Test odoo.modules.loading: loading 1 modules... 
+2023-11-23 21:56:43,718 12496 INFO Test odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries 
+2023-11-23 21:56:43,828 12496 INFO Test odoo.modules.loading: updating modules list 
+2023-11-23 21:56:43,828 12496 INFO Test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2023-11-23 21:56:44,658 12496 INFO Test odoo.modules.loading: loading 7 modules... 
+2023-11-23 21:56:44,676 12496 INFO Test odoo.modules.loading: 7 modules loaded in 0.02s, 0 queries 
+2023-11-23 21:56:44,703 12496 INFO Test odoo.modules.loading: loading 34 modules... 
+2023-11-23 21:56:44,793 12496 INFO Test odoo.modules.registry: module uom: creating or updating database tables 
+2023-11-23 21:56:44,987 12496 INFO Test odoo.modules.loading: loading uom/data/uom_data.xml 
+2023-11-23 21:56:45,051 12496 INFO Test odoo.modules.loading: loading uom/security/uom_security.xml 
+2023-11-23 21:56:45,123 12496 INFO Test odoo.modules.loading: loading uom/security/ir.model.access.csv 
+2023-11-23 21:56:45,149 12496 INFO Test odoo.modules.loading: loading uom/views/uom_uom_views.xml 
+2023-11-23 21:56:45,350 12496 INFO Test odoo.modules.registry: module base_setup: creating or updating database tables 
+2023-11-23 21:56:45,482 12496 INFO Test odoo.modules.loading: loading base_setup/data/base_setup_data.xml 
+2023-11-23 21:56:45,489 12496 INFO Test odoo.modules.loading: loading base_setup/views/res_config_settings_views.xml 
+2023-11-23 21:56:45,581 12496 INFO Test odoo.modules.loading: loading base_setup/views/res_partner_views.xml 
+2023-11-23 21:56:45,610 12496 INFO Test odoo.modules.loading: loading base_setup/views/assets.xml 
+2023-11-23 21:56:45,775 12496 INFO Test odoo.modules.registry: module bus: creating or updating database tables 
+2023-11-23 21:56:45,977 12496 INFO Test odoo.modules.loading: loading bus/views/bus.xml 
+2023-11-23 21:56:46,061 12496 INFO Test odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2023-11-23 21:56:46,218 12496 INFO Test odoo.modules.registry: module http_routing: creating or updating database tables 
+2023-11-23 21:56:46,262 12496 INFO Test odoo.modules.loading: loading http_routing/views/http_routing_template.xml 
+2023-11-23 21:56:46,339 12496 INFO Test odoo.modules.loading: loading http_routing/views/res_lang_views.xml 
+2023-11-23 21:56:46,591 12496 INFO Test odoo.modules.registry: module resource: creating or updating database tables 
+2023-11-23 21:56:47,018 12496 INFO Test odoo.modules.loading: loading resource/data/resource_data.xml 
+2023-11-23 21:56:47,069 12496 INFO Test odoo.modules.loading: loading resource/security/ir.model.access.csv 
+2023-11-23 21:56:47,107 12496 INFO Test odoo.modules.loading: loading resource/security/resource_security.xml 
+2023-11-23 21:56:47,137 12496 INFO Test odoo.modules.loading: loading resource/views/resource_views.xml 
+2023-11-23 21:56:47,382 12496 INFO Test odoo.modules.loading: loading resource/views/resource.xml 
+2023-11-23 21:56:47,561 12496 INFO Test odoo.modules.registry: module utm: creating or updating database tables 
+2023-11-23 21:56:47,777 12496 INFO Test odoo.modules.loading: loading utm/data/utm_data.xml 
+2023-11-23 21:56:47,831 12496 INFO Test odoo.modules.loading: loading utm/views/assets.xml 
+2023-11-23 21:56:47,875 12496 INFO Test odoo.modules.loading: loading utm/views/utm_campaign_views.xml 
+2023-11-23 21:56:47,977 12496 INFO Test odoo.modules.loading: loading utm/views/utm_views.xml 
+2023-11-23 21:56:48,112 12496 INFO Test odoo.modules.loading: loading utm/security/ir.model.access.csv 
+2023-11-23 21:56:48,348 12496 INFO Test odoo.modules.registry: module iap: creating or updating database tables 
+2023-11-23 21:56:48,439 12496 INFO Test odoo.modules.loading: loading iap/security/ir.model.access.csv 
+2023-11-23 21:56:48,458 12496 INFO Test odoo.modules.loading: loading iap/security/ir_rule.xml 
+2023-11-23 21:56:48,469 12496 INFO Test odoo.modules.loading: loading iap/views/assets.xml 
+2023-11-23 21:56:48,517 12496 INFO Test odoo.modules.loading: loading iap/views/iap_views.xml 
+2023-11-23 21:56:48,565 12496 INFO Test odoo.modules.loading: loading iap/views/res_config_settings.xml 
+2023-11-23 21:56:49,202 12496 INFO Test odoo.modules.registry: module mail: creating or updating database tables 
+2023-11-23 21:56:51,940 12496 INFO Test odoo.models: Storing computed values of res.partner.email_normalized 
+2023-11-23 21:56:53,296 12496 INFO Test odoo.modules.loading: loading mail/wizard/invite_view.xml 
+2023-11-23 21:56:53,315 12496 INFO Test odoo.modules.loading: loading mail/wizard/mail_compose_message_view.xml 
+2023-11-23 21:56:53,352 12496 INFO Test odoo.modules.loading: loading mail/wizard/mail_resend_cancel_views.xml 
+2023-11-23 21:56:53,372 12496 INFO Test odoo.modules.loading: loading mail/wizard/mail_resend_message_views.xml 
+2023-11-23 21:56:53,393 12496 INFO Test odoo.modules.loading: loading mail/views/mail_message_subtype_views.xml 
+2023-11-23 21:56:53,432 12496 INFO Test odoo.modules.loading: loading mail/views/mail_tracking_views.xml 
+2023-11-23 21:56:53,473 12496 INFO Test odoo.modules.loading: loading mail/views/mail_message_views.xml 
+2023-11-23 21:56:53,562 12496 INFO Test odoo.modules.loading: loading mail/views/mail_mail_views.xml 
+2023-11-23 21:56:53,627 12496 INFO Test odoo.modules.loading: loading mail/views/mail_followers_views.xml 
+2023-11-23 21:56:53,665 12496 INFO Test odoo.modules.loading: loading mail/views/mail_channel_views.xml 
+2023-11-23 21:56:53,807 12496 INFO Test odoo.modules.loading: loading mail/views/mail_shortcode_views.xml 
+2023-11-23 21:56:53,837 12496 INFO Test odoo.modules.loading: loading mail/views/mail_activity_views.xml 
+2023-11-23 21:56:53,966 12496 INFO Test odoo.modules.loading: loading mail/views/res_config_settings_views.xml 
+2023-11-23 21:56:54,032 12496 INFO Test odoo.modules.loading: loading mail/data/mail_data.xml 
+2023-11-23 21:56:54,160 12496 INFO Test odoo.modules.loading: loading mail/data/mail_channel_data.xml 
+2023-11-23 21:56:54,211 12496 INFO Test odoo.modules.loading: loading mail/data/mail_activity_data.xml 
+2023-11-23 21:56:54,226 12496 INFO Test odoo.modules.loading: loading mail/data/ir_cron_data.xml 
+2023-11-23 21:56:54,267 12496 INFO Test odoo.modules.loading: loading mail/security/mail_security.xml 
+2023-11-23 21:56:54,341 12496 INFO Test odoo.modules.loading: loading mail/security/ir.model.access.csv 
+2023-11-23 21:56:54,456 12496 INFO Test odoo.modules.loading: loading mail/views/mail_alias_views.xml 
+2023-11-23 21:56:54,533 12496 INFO Test odoo.modules.loading: loading mail/views/res_users_views.xml 
+2023-11-23 21:56:54,624 12496 INFO Test odoo.modules.loading: loading mail/views/mail_templates.xml 
+2023-11-23 21:56:54,766 12496 INFO Test odoo.modules.loading: loading mail/wizard/email_template_preview_view.xml 
+2023-11-23 21:56:54,789 12496 INFO Test odoo.modules.loading: loading mail/views/mail_template_views.xml 
+2023-11-23 21:56:54,851 12496 INFO Test odoo.modules.loading: loading mail/views/mail_moderation_views.xml 
+2023-11-23 21:56:54,888 12496 INFO Test odoo.modules.loading: loading mail/views/ir_actions_views.xml 
+2023-11-23 21:56:54,928 12496 INFO Test odoo.modules.loading: loading mail/views/ir_model_views.xml 
+2023-11-23 21:56:55,033 12496 INFO Test odoo.modules.loading: loading mail/views/res_partner_views.xml 
+2023-11-23 21:56:55,149 12496 INFO Test odoo.modules.loading: loading mail/views/mail_blacklist_views.xml 
+2023-11-23 21:56:55,204 12496 INFO Test odoo.modules.loading: loading mail/views/mail_channel_partner_views.xml 
+2023-11-23 21:56:55,482 12496 INFO Test odoo.modules.registry: module web_unsplash: creating or updating database tables 
+2023-11-23 21:56:55,582 12496 INFO Test odoo.modules.loading: loading web_unsplash/views/res_config_settings_view.xml 
+2023-11-23 21:56:55,660 12496 INFO Test odoo.modules.loading: loading web_unsplash/views/web_unsplash_templates.xml 
+2023-11-23 21:56:55,883 12496 INFO Test odoo.modules.registry: module analytic: creating or updating database tables 
+2023-11-23 21:56:55,972 12496 INFO Test odoo.models: Computing parent_path for table account_analytic_group... 
+2023-11-23 21:56:56,225 12496 INFO Test odoo.modules.loading: loading analytic/security/analytic_security.xml 
+2023-11-23 21:56:56,372 12496 INFO Test odoo.modules.loading: loading analytic/security/ir.model.access.csv 
+2023-11-23 21:56:56,401 12496 INFO Test odoo.modules.loading: loading analytic/views/analytic_account_views.xml 
+2023-11-23 21:56:56,879 12496 INFO Test odoo.modules.registry: module auth_signup: creating or updating database tables 
+2023-11-23 21:56:57,068 12496 INFO Test odoo.modules.loading: loading auth_signup/data/auth_signup_data.xml 
+2023-11-23 21:56:57,099 12496 INFO Test odoo.modules.loading: loading auth_signup/data/ir_cron_data.xml 
+2023-11-23 21:56:57,113 12496 INFO Test odoo.modules.loading: loading auth_signup/views/res_config_settings_views.xml 
+2023-11-23 21:56:57,196 12496 INFO Test odoo.modules.loading: loading auth_signup/views/res_users_views.xml 
+2023-11-23 21:56:57,284 12496 INFO Test odoo.modules.loading: loading auth_signup/views/auth_signup_login_templates.xml 
+2023-11-23 21:56:57,318 12496 INFO Test odoo.modules.loading: loading auth_signup/views/auth_signup_assets.xml 
+2023-11-23 21:56:57,587 12496 INFO Test odoo.modules.registry: module fetchmail: creating or updating database tables 
+2023-11-23 21:56:57,752 12496 INFO Test odoo.modules.loading: loading fetchmail/data/fetchmail_data.xml 
+2023-11-23 21:56:57,752 12496 INFO Test odoo.modules.loading: loading fetchmail/security/ir.model.access.csv 
+2023-11-23 21:56:57,788 12496 INFO Test odoo.modules.loading: loading fetchmail/views/fetchmail_views.xml 
+2023-11-23 21:56:57,856 12496 INFO Test odoo.modules.loading: loading fetchmail/views/mail_mail_views.xml 
+2023-11-23 21:56:57,885 12496 INFO Test odoo.modules.loading: loading fetchmail/views/res_config_settings_views.xml 
+2023-11-23 21:56:58,215 12496 INFO Test odoo.modules.registry: module partner_autocomplete: creating or updating database tables 
+2023-11-23 21:56:58,484 12496 INFO Test odoo.modules.loading: loading partner_autocomplete/security/ir.model.access.csv 
+2023-11-23 21:56:58,513 12496 INFO Test odoo.modules.loading: loading partner_autocomplete/views/partner_autocomplete_assets.xml 
+2023-11-23 21:56:58,610 12496 INFO Test odoo.modules.loading: loading partner_autocomplete/views/additional_info_template.xml 
+2023-11-23 21:56:58,626 12496 INFO Test odoo.modules.loading: loading partner_autocomplete/views/res_partner_views.xml 
+2023-11-23 21:56:58,773 12496 INFO Test odoo.modules.loading: loading partner_autocomplete/views/res_company_views.xml 
+2023-11-23 21:56:58,809 12496 INFO Test odoo.modules.loading: loading partner_autocomplete/views/res_config_settings_views.xml 
+2023-11-23 21:56:58,904 12496 INFO Test odoo.modules.loading: loading partner_autocomplete/data/cron.xml 
+2023-11-23 21:56:59,188 12496 INFO Test odoo.modules.registry: module phone_validation: creating or updating database tables 
+2023-11-23 21:56:59,411 12496 INFO Test odoo.modules.loading: loading phone_validation/security/ir.model.access.csv 
+2023-11-23 21:56:59,428 12496 INFO Test odoo.modules.loading: loading phone_validation/views/phone_blacklist_views.xml 
+2023-11-23 21:56:59,805 12496 INFO Test odoo.modules.registry: module product: creating or updating database tables 
+2023-11-23 21:56:59,960 12496 INFO Test odoo.models: Computing parent_path for table product_category... 
+2023-11-23 21:57:01,054 12496 INFO Test odoo.modules.loading: loading product/data/product_data.xml 
+2023-11-23 21:57:01,090 12496 INFO Test odoo.modules.loading: loading product/security/product_security.xml 
+2023-11-23 21:57:01,465 12496 INFO Test odoo.modules.loading: loading product/security/ir.model.access.csv 
+2023-11-23 21:57:01,553 12496 INFO Test odoo.modules.loading: loading product/wizard/product_price_list_views.xml 
+2023-11-23 21:57:01,578 12496 INFO Test odoo.modules.loading: loading product/views/res_config_settings_views.xml 
+2023-11-23 21:57:01,663 12496 INFO Test odoo.modules.loading: loading product/views/product_attribute_views.xml 
+2023-11-23 21:57:01,766 12496 INFO Test odoo.modules.loading: loading product/views/product_views.xml 
+2023-11-23 21:57:02,206 12496 INFO Test odoo.modules.loading: loading product/views/product_template_views.xml 
+2023-11-23 21:57:02,332 12496 INFO Test odoo.modules.loading: loading product/views/product_pricelist_views.xml 
+2023-11-23 21:57:02,565 12496 INFO Test odoo.modules.loading: loading product/views/res_partner_views.xml 
+2023-11-23 21:57:02,636 12496 INFO Test odoo.modules.loading: loading product/report/product_reports.xml 
+2023-11-23 21:57:02,665 12496 INFO Test odoo.modules.loading: loading product/report/product_pricelist_templates.xml 
+2023-11-23 21:57:02,668 12496 INFO Test odoo.modules.loading: loading product/report/product_product_templates.xml 
+2023-11-23 21:57:02,717 12496 INFO Test odoo.modules.loading: loading product/report/product_template_templates.xml 
+2023-11-23 21:57:02,733 12496 INFO Test odoo.modules.loading: loading product/report/product_packaging.xml 
+2023-11-23 21:57:02,997 12496 INFO Test odoo.modules.registry: module sales_team: creating or updating database tables 
+2023-11-23 21:57:03,242 12496 INFO Test odoo.modules.loading: loading sales_team/security/sales_team_security.xml 
+2023-11-23 21:57:03,680 12496 INFO Test odoo.modules.loading: loading sales_team/security/ir.model.access.csv 
+2023-11-23 21:57:03,708 12496 INFO Test odoo.modules.loading: loading sales_team/data/sales_team_data.xml 
+2023-11-23 21:57:03,769 12496 INFO Test odoo.modules.loading: loading sales_team/views/crm_team_views.xml 
+2023-11-23 21:57:03,919 12496 INFO Test odoo.modules.loading: loading sales_team/views/res_partner_views.xml 
+2023-11-23 21:57:03,987 12496 INFO Test odoo.modules.loading: loading sales_team/views/sales_team_dashboard.xml 
+2023-11-23 21:57:04,280 12496 INFO Test odoo.modules.registry: module snailmail: creating or updating database tables 
+2023-11-23 21:57:04,869 12496 INFO Test odoo.modules.loading: loading snailmail/data/snailmail_data.xml 
+2023-11-23 21:57:04,882 12496 INFO Test odoo.modules.loading: loading snailmail/views/report_assets.xml 
+2023-11-23 21:57:04,939 12496 INFO Test odoo.modules.loading: loading snailmail/views/snailmail_views.xml 
+2023-11-23 21:57:04,987 12496 INFO Test odoo.modules.loading: loading snailmail/views/assets.xml 
+2023-11-23 21:57:05,079 12496 INFO Test odoo.modules.loading: loading snailmail/wizard/snailmail_letter_cancel_views.xml 
+2023-11-23 21:57:05,101 12496 INFO Test odoo.modules.loading: loading snailmail/wizard/snailmail_letter_format_error_views.xml 
+2023-11-23 21:57:05,121 12496 INFO Test odoo.modules.loading: loading snailmail/wizard/snailmail_letter_missing_required_fields_views.xml 
+2023-11-23 21:57:05,140 12496 INFO Test odoo.modules.loading: loading snailmail/security/ir.model.access.csv 
+2023-11-23 21:57:05,452 12496 INFO Test odoo.modules.registry: module portal: creating or updating database tables 
+2023-11-23 21:57:06,095 12496 INFO Test odoo.modules.loading: loading portal/data/portal_data.xml 
+2023-11-23 21:57:06,120 12496 INFO Test odoo.modules.loading: loading portal/views/assets.xml 
+2023-11-23 21:57:06,221 12496 INFO Test odoo.modules.loading: loading portal/views/portal_templates.xml 
+2023-11-23 21:57:06,489 12496 INFO Test odoo.modules.loading: loading portal/wizard/portal_share_views.xml 
+2023-11-23 21:57:06,512 12496 INFO Test odoo.modules.loading: loading portal/wizard/portal_wizard_views.xml 
+2023-11-23 21:57:06,853 12496 INFO Test odoo.modules.registry: module sms: creating or updating database tables 
+2023-11-23 21:57:07,514 12496 INFO Test odoo.models: Storing computed values of res.partner.phone_sanitized 
+2023-11-23 21:57:07,899 12496 INFO Test odoo.modules.loading: loading sms/data/ir_cron_data.xml 
+2023-11-23 21:57:07,912 12496 INFO Test odoo.modules.loading: loading sms/wizard/sms_cancel_views.xml 
+2023-11-23 21:57:07,942 12496 INFO Test odoo.modules.loading: loading sms/wizard/sms_composer_views.xml 
+2023-11-23 21:57:07,965 12496 INFO Test odoo.modules.loading: loading sms/wizard/sms_template_preview_views.xml 
+2023-11-23 21:57:07,991 12496 INFO Test odoo.modules.loading: loading sms/wizard/sms_resend_views.xml 
+2023-11-23 21:57:08,014 12496 INFO Test odoo.modules.loading: loading sms/views/ir_actions_views.xml 
+2023-11-23 21:57:08,096 12496 INFO Test odoo.modules.loading: loading sms/views/res_config_settings_views.xml 
+2023-11-23 21:57:08,184 12496 INFO Test odoo.modules.loading: loading sms/views/res_partner_views.xml 
+2023-11-23 21:57:08,260 12496 INFO Test odoo.modules.loading: loading sms/views/assets.xml 
+2023-11-23 21:57:08,359 12496 INFO Test odoo.modules.loading: loading sms/views/sms_sms_views.xml 
+2023-11-23 21:57:08,412 12496 INFO Test odoo.modules.loading: loading sms/views/sms_template_views.xml 
+2023-11-23 21:57:08,471 12496 INFO Test odoo.modules.loading: loading sms/security/ir.model.access.csv 
+2023-11-23 21:57:08,497 12496 INFO Test odoo.modules.loading: loading sms/security/sms_security.xml 
+2023-11-23 21:57:08,769 12496 INFO Test odoo.modules.registry: module digest: creating or updating database tables 
+2023-11-23 21:57:09,022 12496 INFO Test odoo.modules.loading: loading digest/security/ir.model.access.csv 
+2023-11-23 21:57:09,046 12496 INFO Test odoo.modules.loading: loading digest/data/digest_template_data.xml 
+2023-11-23 21:57:09,054 12496 INFO Test odoo.modules.loading: loading digest/data/digest_data.xml 
+2023-11-23 21:57:09,078 12496 INFO Test odoo.modules.loading: loading digest/data/ir_cron_data.xml 
+2023-11-23 21:57:09,091 12496 INFO Test odoo.modules.loading: loading digest/data/res_config_settings_data.xml 
+2023-11-23 21:57:09,099 12496 INFO Test odoo.modules.loading: loading digest/views/digest_views.xml 
+2023-11-23 21:57:09,199 12496 INFO Test odoo.modules.loading: loading digest/views/digest_templates.xml 
+2023-11-23 21:57:09,210 12496 INFO Test odoo.modules.loading: loading digest/views/res_config_settings_views.xml 
+2023-11-23 21:57:09,980 12496 INFO Test odoo.modules.registry: module account: creating or updating database tables 
+2023-11-23 21:57:10,268 12496 INFO Test odoo.models: Computing parent_path for table account_tax_report_line... 
+2023-11-23 21:57:10,369 12496 INFO Test odoo.models: Computing parent_path for table account_group... 
+2023-11-23 21:57:14,860 12496 INFO Test odoo.modules.loading: loading account/security/account_security.xml 
+2023-11-23 21:57:16,032 12496 INFO Test odoo.modules.loading: loading account/security/ir.model.access.csv 
+2023-11-23 21:57:16,274 12496 INFO Test odoo.modules.loading: loading account/data/data_account_type.xml 
+2023-11-23 21:57:16,296 12496 INFO Test odoo.modules.loading: loading account/data/account_data.xml 
+2023-11-23 21:57:16,410 12496 INFO Test odoo.modules.loading: loading account/data/digest_data.xml 
+2023-11-23 21:57:16,410 12496 INFO Test odoo.modules.loading: loading account/views/account_menuitem.xml 
+2023-11-23 21:57:16,546 12496 INFO Test odoo.modules.loading: loading account/views/account_payment_view.xml 
+2023-11-23 21:57:16,769 12496 INFO Test odoo.modules.loading: loading account/wizard/account_accrual_accounting_view.xml 
+2023-11-23 21:57:16,781 12496 INFO Test odoo.modules.loading: loading account/wizard/account_unreconcile_view.xml 
+2023-11-23 21:57:16,811 12496 INFO Test odoo.modules.loading: loading account/wizard/account_move_reversal_view.xml 
+2023-11-23 21:57:16,829 12496 INFO Test odoo.modules.loading: loading account/views/account_move_views.xml 
+2023-11-23 21:57:17,671 12496 INFO Test odoo.modules.loading: loading account/wizard/setup_wizards_view.xml 
+2023-11-23 21:57:17,720 12496 INFO Test odoo.modules.loading: loading account/wizard/pos_box.xml 
+2023-11-23 21:57:17,737 12496 INFO Test odoo.modules.loading: loading account/views/partner_view.xml 
+2023-11-23 21:57:18,105 12496 INFO Test odoo.modules.loading: loading account/views/account_view.xml 
+2023-11-23 21:57:19,359 12496 INFO Test odoo.modules.loading: loading account/views/report_statement.xml 
+2023-11-23 21:57:19,373 12496 INFO Test odoo.modules.loading: loading account/views/account_report.xml 
+2023-11-23 21:57:19,394 12496 INFO Test odoo.modules.loading: loading account/data/mail_template_data.xml 
+2023-11-23 21:57:19,409 12496 INFO Test odoo.modules.loading: loading account/wizard/account_validate_move_view.xml 
+2023-11-23 21:57:19,433 12496 INFO Test odoo.modules.loading: loading account/views/account_end_fy.xml 
+2023-11-23 21:57:19,434 12496 INFO Test odoo.modules.loading: loading account/views/product_view.xml 
+2023-11-23 21:57:19,495 12496 INFO Test odoo.modules.loading: loading account/views/account_analytic_view.xml 
+2023-11-23 21:57:19,628 12496 INFO Test odoo.modules.loading: loading account/views/account_tip_data.xml 
+2023-11-23 21:57:19,628 12496 INFO Test odoo.modules.loading: loading account/views/account.xml 
+2023-11-23 21:57:19,827 12496 INFO Test odoo.modules.loading: loading account/views/report_invoice.xml 
+2023-11-23 21:57:19,893 12496 INFO Test odoo.modules.loading: loading account/report/account_invoice_report_view.xml 
+2023-11-23 21:57:20,039 12496 INFO Test odoo.modules.loading: loading account/views/account_cash_rounding_view.xml 
+2023-11-23 21:57:20,097 12496 INFO Test odoo.modules.loading: loading account/wizard/account_report_common_view.xml 
+2023-11-23 21:57:20,119 12496 INFO Test odoo.modules.loading: loading account/views/report_journal.xml 
+2023-11-23 21:57:20,128 12496 INFO Test odoo.modules.loading: loading account/views/tax_adjustments.xml 
+2023-11-23 21:57:20,143 12496 INFO Test odoo.modules.loading: loading account/wizard/wizard_tax_adjustments_view.xml 
+2023-11-23 21:57:20,159 12496 INFO Test odoo.modules.loading: loading account/views/res_config_settings_views.xml 
+2023-11-23 21:57:20,326 12496 INFO Test odoo.modules.loading: loading account/views/account_journal_dashboard_view.xml 
+2023-11-23 21:57:20,393 12496 INFO Test odoo.modules.loading: loading account/views/account_portal_templates.xml 
+2023-11-23 21:57:20,478 12496 INFO Test odoo.modules.loading: loading account/views/report_payment_receipt_templates.xml 
+2023-11-23 21:57:20,495 12496 INFO Test odoo.modules.loading: loading account/data/payment_receipt_data.xml 
+2023-11-23 21:57:20,525 12496 INFO Test odoo.modules.loading: loading account/views/account_onboarding_templates.xml 
+2023-11-23 21:57:20,659 12496 INFO Test odoo.modules.loading: loading account/data/service_cron.xml 
+2023-11-23 21:57:20,685 12496 INFO Test odoo.modules.loading: loading account/views/account_fiscal_year_view.xml 
+2023-11-23 21:57:20,728 12496 INFO Test odoo.modules.loading: loading account/views/account_incoterms_view.xml 
+2023-11-23 21:57:20,786 12496 INFO Test odoo.modules.loading: loading account/data/account_incoterms_data.xml 
+2023-11-23 21:57:20,812 12496 INFO Test odoo.modules.loading: loading account/views/digest_views.xml 
+2023-11-23 21:57:20,871 12496 INFO Test odoo.modules.loading: loading account/wizard/account_invoice_send_views.xml 
+2023-11-23 21:57:20,895 12496 INFO Test odoo.modules.loading: loading account/views/account_tax_report_views.xml 
+2023-11-23 21:57:20,959 12496 INFO Test odoo.modules.loading: loading account/views/report_statement.xml 
+2023-11-23 21:57:20,961 12496 INFO Test odoo.modules.loading: loading account/report/account_hash_integrity_templates.xml 
+2023-11-23 21:57:21,008 12496 INFO Test odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Lithuania - Accounting'] to user __system__ #1 via 127.0.0.1 
+2023-11-23 21:57:21,440 12496 INFO Test odoo.modules.registry: module account_bank_statement_import: creating or updating database tables 
+2023-11-23 21:57:21,710 12496 INFO Test odoo.modules.loading: loading account_bank_statement_import/account_bank_statement_import_view.xml 
+2023-11-23 21:57:21,794 12496 INFO Test odoo.modules.loading: loading account_bank_statement_import/account_import_tip_data.xml 
+2023-11-23 21:57:21,794 12496 INFO Test odoo.modules.loading: loading account_bank_statement_import/wizard/journal_creation.xml 
+2023-11-23 21:57:21,809 12496 INFO Test odoo.modules.loading: loading account_bank_statement_import/views/account_bank_statement_import_templates.xml 
+2023-11-23 21:57:22,309 12496 INFO Test odoo.modules.registry: module account_facturx: creating or updating database tables 
+2023-11-23 21:57:22,494 12496 INFO Test odoo.modules.loading: loading account_facturx/data/facturx_templates.xml 
+2023-11-23 21:57:23,015 12496 INFO Test odoo.modules.registry: module payment: creating or updating database tables 
+2023-11-23 21:57:24,074 12496 INFO Test odoo.modules.loading: loading payment/data/account_data.xml 
+2023-11-23 21:57:24,090 12496 INFO Test odoo.modules.loading: loading payment/data/payment_icon_data.xml 
+2023-11-23 21:57:24,324 12496 INFO Test odoo.modules.loading: loading payment/data/payment_acquirer_data.xml 
+2023-11-23 21:57:24,543 12496 INFO Test odoo.modules.loading: loading payment/data/payment_cron.xml 
+2023-11-23 21:57:24,558 12496 INFO Test odoo.modules.loading: loading payment/views/payment_views.xml 
+2023-11-23 21:57:24,808 12496 INFO Test odoo.modules.loading: loading payment/views/account_payment_views.xml 
+2023-11-23 21:57:24,861 12496 INFO Test odoo.modules.loading: loading payment/views/account_invoice_views.xml 
+2023-11-23 21:57:24,977 12496 INFO Test odoo.modules.loading: loading payment/views/payment_acquirer_onboarding_templates.xml 
+2023-11-23 21:57:25,058 12496 INFO Test odoo.modules.loading: loading payment/views/payment_templates.xml 
+2023-11-23 21:57:25,143 12496 INFO Test odoo.modules.loading: loading payment/views/payment_portal_templates.xml 
+2023-11-23 21:57:25,209 12496 INFO Test odoo.modules.loading: loading payment/views/assets.xml 
+2023-11-23 21:57:25,264 12496 INFO Test odoo.modules.loading: loading payment/views/res_partner_views.xml 
+2023-11-23 21:57:25,358 12496 INFO Test odoo.modules.loading: loading payment/security/ir.model.access.csv 
+2023-11-23 21:57:25,392 12496 INFO Test odoo.modules.loading: loading payment/security/payment_security.xml 
+2023-11-23 21:57:25,434 12496 INFO Test odoo.modules.loading: loading payment/wizards/payment_link_wizard_views.xml 
+2023-11-23 21:57:25,861 12496 INFO Test odoo.modules.registry: module snailmail_account: creating or updating database tables 
+2023-11-23 21:57:26,122 12496 INFO Test odoo.modules.loading: loading snailmail_account/views/res_config_settings_views.xml 
+2023-11-23 21:57:26,270 12496 INFO Test odoo.modules.loading: loading snailmail_account/views/assets.xml 
+2023-11-23 21:57:26,362 12496 INFO Test odoo.modules.loading: loading snailmail_account/wizard/account_invoice_send_views.xml 
+2023-11-23 21:57:26,768 12496 INFO Test odoo.modules.registry: module payment_transfer: creating or updating database tables 
+2023-11-23 21:57:26,878 12496 INFO Test odoo.modules.loading: loading payment_transfer/views/payment_views.xml 
+2023-11-23 21:57:26,932 12496 INFO Test odoo.modules.loading: loading payment_transfer/views/payment_transfer_templates.xml 
+2023-11-23 21:57:26,946 12496 INFO Test odoo.modules.loading: loading payment_transfer/data/payment_acquirer_data.xml 
+2023-11-23 21:57:27,558 12496 INFO Test odoo.modules.registry: module sale: creating or updating database tables 
+2023-11-23 21:57:29,307 12496 INFO Test odoo.modules.loading: loading sale/security/sale_security.xml 
+2023-11-23 21:57:29,930 12496 INFO Test odoo.modules.loading: loading sale/security/ir.model.access.csv 
+2023-11-23 21:57:30,088 12496 INFO Test odoo.modules.loading: loading sale/report/sale_report.xml 
+2023-11-23 21:57:30,101 12496 INFO Test odoo.modules.loading: loading sale/report/sale_report_views.xml 
+2023-11-23 21:57:30,140 12496 INFO Test odoo.modules.loading: loading sale/report/sale_report_templates.xml 
+2023-11-23 21:57:30,191 12496 INFO Test odoo.modules.loading: loading sale/report/invoice_report_templates.xml 
+2023-11-23 21:57:30,208 12496 INFO Test odoo.modules.loading: loading sale/report/report_all_channels_sales_views.xml 
+2023-11-23 21:57:30,208 12496 INFO Test odoo.modules.loading: loading sale/data/ir_sequence_data.xml 
+2023-11-23 21:57:30,208 12496 INFO Test odoo.modules.loading: loading sale/data/mail_data.xml 
+2023-11-23 21:57:30,278 12496 INFO Test odoo.modules.loading: loading sale/data/sale_data.xml 
+2023-11-23 21:57:30,288 12496 INFO Test odoo.modules.loading: loading sale/wizard/sale_make_invoice_advance_views.xml 
+2023-11-23 21:57:30,307 12496 INFO Test odoo.modules.loading: loading sale/views/sale_views.xml 
+2023-11-23 21:57:31,556 12496 INFO Test odoo.modules.loading: loading sale/views/sales_team_views.xml 
+2023-11-23 21:57:31,680 12496 INFO Test odoo.modules.loading: loading sale/views/res_partner_views.xml 
+2023-11-23 21:57:32,029 12496 INFO Test odoo.modules.loading: loading sale/views/mail_activity_views.xml 
+2023-11-23 21:57:32,040 12496 INFO Test odoo.modules.loading: loading sale/views/assets.xml 
+2023-11-23 21:57:32,238 12496 INFO Test odoo.modules.loading: loading sale/views/variant_templates.xml 
+2023-11-23 21:57:32,254 12496 INFO Test odoo.modules.loading: loading sale/views/sale_portal_templates.xml 
+2023-11-23 21:57:32,389 12496 INFO Test odoo.modules.loading: loading sale/views/sale_onboarding_views.xml 
+2023-11-23 21:57:32,507 12496 INFO Test odoo.modules.loading: loading sale/views/res_config_settings_views.xml 
+2023-11-23 21:57:32,707 12496 INFO Test odoo.modules.loading: loading sale/views/payment_views.xml 
+2023-11-23 21:57:32,790 12496 INFO Test odoo.modules.loading: loading sale/views/product_attribute_views.xml 
+2023-11-23 21:57:32,889 12496 INFO Test odoo.modules.loading: loading sale/views/product_views.xml 
+2023-11-23 21:57:32,957 12496 INFO Test odoo.modules.loading: loading sale/views/utm_campaign_views.xml 
+2023-11-23 21:57:33,013 12496 INFO Test odoo.modules.loading: loading sale/wizard/sale_payment_link_views.xml 
+2023-11-23 21:57:33,040 12496 INFO Test odoo.modules.loading: 34 modules loaded in 48.34s, 0 queries 
+2023-11-23 21:57:33,056 12496 INFO Test odoo.modules.loading: loading 36 modules... 
+2023-11-23 21:57:33,457 12496 INFO Test odoo.modules.registry: module l10n_multilang: creating or updating database tables 
+2023-11-23 21:57:34,337 12496 INFO Test odoo.modules.registry: module l10n_lt: creating or updating database tables 
+2023-11-23 21:57:34,353 12496 INFO Test odoo.modules.loading: loading l10n_lt/data/account_account_tag_data.xml 
+2023-11-23 21:57:34,572 12496 INFO Test odoo.modules.loading: loading l10n_lt/data/account_chart_template_data.xml 
+2023-11-23 21:57:34,587 12496 INFO Test odoo.modules.loading: loading l10n_lt/data/account.account.template.csv 
+2023-11-23 21:57:35,087 12496 INFO Test odoo.modules.loading: loading l10n_lt/data/account_chart_template_setup_data.xml 
+2023-11-23 21:57:35,111 12496 INFO Test odoo.modules.loading: loading l10n_lt/data/res_bank_data.xml 
+2023-11-23 21:57:35,134 12496 INFO Test odoo.modules.loading: loading l10n_lt/data/account_tax_group_data.xml 
+2023-11-23 21:57:35,139 12496 INFO Test odoo.modules.loading: loading l10n_lt/data/account_tax_template_data.xml 
+2023-11-23 21:57:35,292 12496 INFO Test odoo.modules.loading: loading l10n_lt/data/account_fiscal_position_template_data.xml 
+2023-11-23 21:57:35,306 12496 INFO Test odoo.modules.loading: loading l10n_lt/data/account_chart_template_load.xml 
+2023-11-23 21:57:36,073 12496 INFO Test odoo.modules.loading: loading l10n_lt/data/menuitem_data.xml 
+2023-11-23 21:57:36,119 12496 INFO Test odoo.modules.loading: 36 modules loaded in 3.06s, 0 queries 
+2023-11-23 21:57:36,783 12496 INFO Test odoo.modules.loading: Modules loaded. 
+2023-11-23 21:57:36,789 12496 INFO Test odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2023-11-23 21:57:36,794 12496 INFO Test odoo.modules.registry: Registry changed, signaling through the database 
+2023-11-23 21:57:36,796 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:36] "POST /web/dataset/call_button HTTP/1.1" 200 - 49649 27.286 26.035
+2023-11-23 21:57:37,149 12496 INFO Test odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-11-23 21:57:43,171 12496 INFO Test odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2023-11-23 21:57:43,173 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:43] "GET /web HTTP/1.1" 200 - 552 0.340 5.688
+2023-11-23 21:57:43,258 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:43] "GET /web/content/312-e1ee11d/web.assets_backend.css HTTP/1.1" 200 - 6 0.008 0.036
+2023-11-23 21:57:43,260 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:43] "GET /web/content/314-e1ee11d/web.assets_backend.js HTTP/1.1" 200 - 4 0.008 0.036
+2023-11-23 21:57:43,610 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:43] "GET /web/content/312-e1ee11d/web.assets_backend.css HTTP/1.1" 200 - 4 0.005 0.023
+2023-11-23 21:57:43,636 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:43] "GET /web/content/314-e1ee11d/web.assets_backend.js HTTP/1.1" 200 - 4 0.006 0.040
+2023-11-23 21:57:43,782 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:43] "GET /web/webclient/qweb/b21efb5ae1242988bc5201ec214438d4845e517e?mods=base,web,base_setup,bus,web_tour,mail,product,web_editor,auth_signup,portal,resource,digest,account,account_bank_statement_import,base_import,iap,l10n_lt,partner_autocomplete,payment,payment_transfer,sales_team,utm,sale,sms,snailmail,snailmail_account,web_diagram,web_kanban_gauge,web_unsplash HTTP/1.1" 200 - 1 0.000 0.065
+2023-11-23 21:57:43,886 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:43] "GET /web/webclient/load_menus/ba19b7724b5ee9cc28748b913059698b25b27c74 HTTP/1.1" 200 - 179 0.113 0.156
+2023-11-23 21:57:43,894 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:43] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?mods=base%2Cweb%2Cbase_setup%2Cbus%2Cweb_tour%2Cmail%2Cproduct%2Cweb_editor%2Cauth_signup%2Cportal%2Cresource%2Cdigest%2Caccount%2Caccount_bank_statement_import%2Cbase_import%2Ciap%2Cl10n_lt%2Cpartner_autocomplete%2Cpayment%2Cpayment_transfer%2Csales_team%2Cutm%2Csale%2Csms%2Csnailmail%2Csnailmail_account%2Cweb_diagram%2Cweb_kanban_gauge%2Cweb_unsplash&lang=en_US HTTP/1.1" 200 - 3 0.008 0.008
+2023-11-23 21:57:44,187 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:44] "POST /mail/init_messaging HTTP/1.1" 200 - 52 0.018 0.048
+2023-11-23 21:57:44,230 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:44] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.003 0.005
+2023-11-23 21:57:44,240 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:44] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.000 0.000
+2023-11-23 21:57:44,272 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:44] "GET /web/image?model=res.users&field=image_128&id=2 HTTP/1.1" 304 - 16 0.002 0.030
+2023-11-23 21:57:44,288 12496 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-11-23 21:57:44,538 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:44] "POST /web/action/load HTTP/1.1" 200 - 14 0.015 0.001
+2023-11-23 21:57:44,604 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:44] "POST /web/dataset/call_kw/mail.message/load_views HTTP/1.1" 200 - 26 0.031 0.002
+2023-11-23 21:57:44,921 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:44] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 - 11 0.016 0.031
+2023-11-23 21:57:44,964 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:44] "POST /web/dataset/call_kw/mail.message/message_fetch HTTP/1.1" 200 - 8 0.009 0.008
+2023-11-23 21:57:47,495 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:47] "POST /web/action/load HTTP/1.1" 200 - 46 0.071 0.099
+2023-11-23 21:57:48,019 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:48] "POST /web/dataset/call_kw/res.config.settings/load_views HTTP/1.1" 200 - 71 0.030 0.166
+2023-11-23 21:57:48,570 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:48] "POST /web/dataset/call_kw/res.config.settings/default_get HTTP/1.1" 200 - 207 0.144 0.072
+2023-11-23 21:57:49,019 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:49] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 71 0.094 0.022
+2023-11-23 21:57:49,369 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:49] "POST /web/dataset/call_kw/mail.template/name_get HTTP/1.1" 200 - 4 0.000 0.016
+2023-11-23 21:57:49,369 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:49] "POST /web/dataset/call_kw/digest.digest/name_get HTTP/1.1" 200 - 4 0.000 0.016
+2023-11-23 21:57:49,369 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:49] "POST /web/dataset/call_kw/account.chart.template/name_get HTTP/1.1" 200 - 4 0.015 0.001
+2023-11-23 21:57:49,705 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:49] "POST /web/dataset/call_kw/account.chart.template/name_search HTTP/1.1" 200 - 3 0.015 0.001
+2023-11-23 21:57:50,132 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:50] "POST /base_setup/data HTTP/1.1" 200 - 4 0.015 0.000
+2023-11-23 21:57:50,154 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:50] "POST /base_setup/demo_active HTTP/1.1" 200 - 4 0.021 0.001
+2023-11-23 21:57:53,571 12496 INFO Test odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2023-11-23 21:57:53,597 12496 INFO Test odoo.addons.base.models.ir_cron: Job `Post process payment transactions` done. 
+2023-11-23 21:57:53,598 12496 INFO Test odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-11-23 21:57:53,614 12496 INFO Test odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-11-23 21:57:53,615 12496 INFO Test odoo.addons.base.models.ir_cron: Starting job `Notification: Delete Notifications older than 6 Month`. 
+2023-11-23 21:57:53,618 12496 INFO Test odoo.addons.base.models.ir_cron: Job `Notification: Delete Notifications older than 6 Month` done. 
+2023-11-23 21:57:53,618 12496 INFO Test odoo.addons.base.models.ir_cron: Starting job `Users: Notify About Unregistered Users`. 
+2023-11-23 21:57:53,646 12496 INFO Test odoo.addons.base.models.ir_cron: Job `Users: Notify About Unregistered Users` done. 
+2023-11-23 21:57:53,647 12496 INFO Test odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-11-23 21:57:53,651 12496 INFO Test odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-11-23 21:57:53,651 12496 INFO Test odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-11-23 21:57:53,674 12496 INFO Test odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-11-23 21:57:53,675 12496 INFO Test odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-11-23 21:57:53,684 12496 INFO Test odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-11-23 21:57:53,684 12496 INFO Test odoo.addons.base.models.ir_cron: Starting job `Digest Emails`. 
+2023-11-23 21:57:53,704 12496 INFO Test odoo.addons.base.models.ir_cron: Job `Digest Emails` done. 
+2023-11-23 21:57:53,705 12496 INFO Test odoo.addons.base.models.ir_cron: Starting job `Mail: Notify channel moderators`. 
+2023-11-23 21:57:53,715 12496 INFO Test odoo.addons.base.models.ir_cron: Job `Mail: Notify channel moderators` done. 
+2023-11-23 21:57:54,742 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:54] "GET /web?debug=1 HTTP/1.1" 200 - 323 0.198 0.674
+2023-11-23 21:57:55,133 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:55] "GET /web/webclient/load_menus/432e3e2320d01c9198e5a0a000adfc71bbb82457 HTTP/1.1" 200 - 1 0.000 0.006
+2023-11-23 21:57:55,380 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:55] "POST /mail/init_messaging HTTP/1.1" 200 - 24 0.022 0.023
+2023-11-23 21:57:55,385 12496 INFO ? werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:55] "GET /web/static/src/xml/debug.xml?debug=1700776675147 HTTP/1.1" 200 - - - -
+2023-11-23 21:57:55,472 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:55] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.004 0.013
+2023-11-23 21:57:55,492 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:55] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 - 1 0.001 0.017
+2023-11-23 21:57:55,701 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:55] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.000 0.000
+2023-11-23 21:57:55,717 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:55] "GET /web/image?model=res.users&field=image_128&id=2 HTTP/1.1" 304 - 6 0.000 0.016
+2023-11-23 21:57:55,865 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:55] "POST /web/action/load HTTP/1.1" 200 - 9 0.010 0.035
+2023-11-23 21:57:56,057 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:56] "POST /web/dataset/call_kw/mail.message/load_views HTTP/1.1" 200 - 10 0.031 0.000
+2023-11-23 21:57:56,184 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:56] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 - 2 0.000 0.000
+2023-11-23 21:57:56,400 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:56] "POST /web/dataset/call_kw/mail.message/message_fetch HTTP/1.1" 200 - 4 0.000 0.000
+2023-11-23 21:57:56,993 12496 INFO ? werkzeug: 127.0.0.1 - - [23/Nov/2023 21:57:56] "GET /web_tour/static/src/xml/tip.xml?debug=1700776676987 HTTP/1.1" 200 - - - -
+2023-11-23 21:58:00,421 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:58:00] "POST /web/action/load HTTP/1.1" 200 - 33 0.031 0.041
+2023-11-23 21:58:01,048 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:58:01] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 89 0.089 0.209
+2023-11-23 21:58:01,381 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:58:01] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.000 0.000
+2023-11-23 21:58:05,447 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:58:05] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.004 0.026
+2023-11-23 21:58:06,514 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:58:06] "POST /web/dataset/search_read HTTP/1.1" 200 - 8 0.018 0.027
+2023-11-23 21:58:12,977 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:58:12] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.004 0.029
+2023-11-23 21:58:34,302 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:58:34] "POST /longpolling/poll HTTP/1.1" 200 - 18 0.017 50.030
+2023-11-23 21:58:45,509 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:58:45] "POST /longpolling/poll HTTP/1.1" 200 - 10 0.013 50.026
+2023-11-23 21:59:35,916 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 21:59:35] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.013 50.030
+2023-11-23 22:00:25,962 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 22:00:25] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.002 50.036
+2023-11-23 22:01:16,316 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 22:01:16] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.007 50.012
+2023-11-23 22:02:06,351 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 22:02:06] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.005 50.018
+2023-11-23 22:02:56,696 12496 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 22:02:56] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.006 50.026
+2023-11-23 22:04:51,399 1408 INFO ? odoo: Odoo version 13.0-20230501 
+2023-11-23 22:04:51,399 1408 INFO ? odoo: Using configuration file at C:\Odoo\odoo13\server\odoo.conf 
+2023-11-23 22:04:51,399 1408 INFO ? odoo: addons paths: ['C:\\Odoo\\odoo13\\server\\odoo\\addons', 'c:\\users\\igno\\appdata\\local\\openerp s.a\\odoo\\addons\\13.0', 'c:\\odoo\\odoo13\\server\\odoo\\addons', 'c:\\odoo\\odoo13\\server\\custom_documents'] 
+2023-11-23 22:04:51,399 1408 INFO ? odoo: database: openpg@localhost:5432 
+2023-11-23 22:04:51,640 1408 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Odoo\odoo13\thirdparty\wkhtmltopdf.exe 
+2023-11-23 22:04:52,682 1408 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-753U4UN:8069 
+2023-11-23 22:05:01,355 1408 INFO ? odoo.http: HTTP Configuring static files 
+2023-11-23 22:05:01,439 1408 INFO Test odoo.modules.loading: loading 1 modules... 
+2023-11-23 22:05:01,456 1408 INFO Test odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries 
+2023-11-23 22:05:01,500 1408 INFO Test odoo.modules.loading: loading 36 modules... 
+2023-11-23 22:05:01,872 1408 INFO Test odoo.modules.loading: 36 modules loaded in 0.37s, 0 queries 
+2023-11-23 22:05:02,528 1408 INFO Test odoo.modules.loading: Modules loaded. 
+2023-11-23 22:05:02,534 1408 INFO Test odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-11-23 22:05:03,811 1408 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 22:05:03] "GET /web?debug=1 HTTP/1.1" 200 - 444 0.327 2.113
+2023-11-23 22:05:03,954 1408 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 22:05:03] "GET /web/webclient/load_menus/432e3e2320d01c9198e5a0a000adfc71bbb82457 HTTP/1.1" 200 - 1 0.001 0.005
+2023-11-23 22:05:04,425 1408 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 22:05:04] "GET /web/image/res.company/1/favicon/ HTTP/1.1" 200 - 12 0.011 0.021
+2023-11-23 22:05:04,740 1408 INFO ? werkzeug: 127.0.0.1 - - [23/Nov/2023 22:05:04] "GET /web/static/src/xml/debug.xml?debug=1700777104415 HTTP/1.1" 200 - - - -
+2023-11-23 22:05:04,809 1408 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 22:05:04] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.006 0.064
+2023-11-23 22:05:04,810 1408 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 22:05:04] "POST /mail/init_messaging HTTP/1.1" 200 - 51 0.057 0.047
+2023-11-23 22:05:04,853 1408 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 22:05:04] "GET /web/image?model=res.users&field=image_128&id=2 HTTP/1.1" 304 - 16 0.024 0.081
+2023-11-23 22:05:05,065 1408 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 22:05:05] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 - 2 0.003 0.006
+2023-11-23 22:05:05,174 1408 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-11-23 22:05:05,460 1408 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 22:05:05] "POST /web/action/load HTTP/1.1" 200 - 39 0.040 0.035
+2023-11-23 22:05:05,937 1408 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 22:05:05] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 91 0.078 0.078
+2023-11-23 22:05:06,287 1408 INFO Test werkzeug: 127.0.0.1 - - [23/Nov/2023 22:05:06] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.000 0.017
